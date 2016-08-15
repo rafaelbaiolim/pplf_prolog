@@ -43,8 +43,6 @@ test(rainhas_p_bonus, [nondet], [fail]):- rainhas_p_bonus([3,6,1,4,2,7,5], 7).
 test(rainhas_p_bonus, [nondet], [fail]):- rainhas_p_bonus([3,6,1,4,2,7], 6).
 test(rainhas_p_bonus, [nondet], [fail]):- rainhas_p_bonus([3, 7, 1, 2, 9, 5, 4, 8, 6], 9).
 test(rainhas_p_bonus, [nondet], [fail]):- rainhas_p_bonus([1,2,3,4,5,6,7,8], 8).
-
-
 :- end_tests(rainhas_p_bonus).
 
 
